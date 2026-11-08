@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+!.env.example
+output/
+work/
+*.mp4
+*.wav
+*.cookie*
+*.log
