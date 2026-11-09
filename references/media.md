@@ -77,4 +77,4 @@ python scripts/assemble.py build <任务目录>/media-manifest.json --output <�
 
 成本合并video-report实际 `costs.json`、兼容流程实际 `mixed-qa.json` 的时间及可取得的查询/平台账单；没有账单的模型、Key服务、Ego或电费保持未知。是否调用本机FFmpeg不能证明整个任务免费。
 
-明确要求发布时继续走video-report维护入口，`videoPath` 指向**本次实际通过QA的成片**：原生流程通常为 `output/report/video.mp4`，兼容流程为 `output/mixed/video.mp4`。核对当前截图、片段的使用依据和创作声明，不能继承只覆盖早期全原创示意片的确认。
+明确要求发布时继续走video-report维护入口，`videoPath` 指向**本次实际通过QA的成片**：原生流程通常为 `output/report/video.mp4`，兼容流程为 `output/mixed/video.mp4`。内部核对截图、片段的使用依据和创作声明；用户已授权助手制作成片按自制处理时，沿用video-report保存的持续授权，不因新增地图、署名截图或剪辑版本重复询问。
